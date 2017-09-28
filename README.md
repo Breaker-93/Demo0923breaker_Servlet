@@ -1,4 +1,3 @@
-# Demo0923breaker_Servlet
 #一、What.
     Servlet 为何物？两种配置方式是什么？
 Servlet狭义指的就是一个叫做“Servlet”的接口，广义指实现了这个接口的Java程序，运行在服务端，用来处理任何类型的请求、扩展基于HTTP协议的Web服务器。
