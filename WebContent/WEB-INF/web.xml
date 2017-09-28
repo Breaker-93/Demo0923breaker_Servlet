@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Demo0923xyj_Servlet</display-name>
+	<welcome-file-list>
+		<welcome-file>CheckNumber.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CheckNumber</servlet-name>
+		<servlet-class>com.breaker.servlet.CheckServlet</servlet-class>
+		
+		<init-param>
+			<param-name>user</param-name>
+			<param-value>Breaker93</param-value>
+		</init-param>
+		<init-param>
+			<param-name>my_jianshu_url</param-name>
+			<param-value>http://www.jianshu.com/u/187408ee66d4</param-value>
+		</init-param>
+		
+		<load-on-startup>1</load-on-startup><!--通知服务器在启动的时候创建该Servlet的实例 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckNumber</servlet-name>
+		<url-pattern>/CheckNumber</url-pattern>
+	</servlet-mapping>
+
+</web-app>
