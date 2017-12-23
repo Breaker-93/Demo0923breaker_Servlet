@@ -212,8 +212,4 @@ public class CheckServlet extends HttpServlet{
 - 两种配置方式比较：
   XML配置形式，在需要修改Servlet的配置信息（比如初始化参数的值）时，只需在服务器访问目录直接修改web.xml文件而不需要修改java文件然后再重新编译成class文件；
   但是当web.xml文件中出现大量的Servlet配置时，就会显得冗杂，而注解方式让配置更方便、简练。
-  
->本节文章来源：http://www.jianshu.com/writer#/notebooks/16799351/notes/17659490/preview
->
->（欢迎关注个人简书，精彩文章等你来品。）
 
